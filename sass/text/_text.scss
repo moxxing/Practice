@@ -1,0 +1,12 @@
+.text {
+  font-family: "Montserrat";
+  color: $mainTextNavCl;
+  font-size: 15px;
+  &-logo {
+    font-family: "Comfortaa";
+    font-size: 32px;
+  }
+  &-nav {
+    font-size: 18px;
+  }
+}

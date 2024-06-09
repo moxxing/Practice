@@ -1,0 +1,149 @@
+.index {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 30px;
+
+  background-color: lightseagreen;
+
+  width: 300px;
+  height: 70px;
+
+  border: darkblue solid 2px;
+
+  border-radius: 15px;
+}
+
+.index:active {
+  background-color: chartreuse;
+}
+
+.index::before,
+.index::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+
+  border-radius: 8px;
+  background-color: darksalmon;
+
+  box-shadow: 0 6px 4px rgb(133, 86, 71);
+
+  margin-right: 10px;
+
+  opacity: 0;
+}
+
+.index:hover::before,
+.index:focus::before {
+  opacity: 1;
+
+  transition: opacity 1s ease;
+}
+
+.index::after,
+.index::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+
+  border-radius: 8px;
+  background-color: darksalmon;
+
+  box-shadow: 0 6px 4px rgb(133, 86, 71);
+
+  margin-left: 10px;
+
+  opacity: 0;
+}
+
+.index:hover::after,
+.index:focus::after {
+  opacity: 1;
+
+  transition: opacity 1s ease;
+}
+
+.headers {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 50px;
+
+  color: darkred;
+
+  background-image: linear-gradient(
+    to right,
+    #9eefe1 0%,
+    #4830f0 51%,
+    #9eefe1 100%
+  );
+  background-size: 200% auto;
+
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+  transition: 0.5s;
+
+  border-radius: 20px;
+}
+
+.headers:hover,
+.headers:focus {
+  background-position: right center;
+  color: lightsalmon;
+}
+
+.bodies {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  border: 1px solid #7952b3;
+
+  border-radius: 30px;
+  height: 38px;
+
+  line-height: 38px;
+
+  cursor: pointer;
+
+  width: 300px;
+  height: 50px;
+
+  text-align: center;
+
+  color: #fff;
+  background-color: #7952b3;
+  font-size: 14px;
+  font-weight: 600;
+  &_margin {
+    margin-top: 15px;
+  }
+  &_padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.bodies:focus {
+  box-shadow: 0 0 0 6px rgba(121, 82, 179, 0.4);
+}
+.bodies:hover {
+  background-color: #61428f;
+
+  border-color: #61428f;
+}
+
+.bodies:active {
+  background-color: #402c5f;
+
+  border-color: #402c5f;
+}
+

@@ -1,0 +1,82 @@
+.btn {
+  width: 130px;
+  height: 40px;
+
+  font-family: inherit;
+  font-size: 17px;
+
+  border-radius: 6px;
+  &--log-in {
+    border: 1px solid $mainTextNavCl;
+    background-color: $mainBackColorheader;
+    color: $mainTextNavCl;
+  }
+  &--register {
+    background-color: $mainTextNavCl;
+
+    color: $mainBackColorheader;
+  }
+
+  &__hero {
+    width: 192px;
+    height: 52px;
+
+    background-color: $mainTextNavCl;
+    color: $mainBackColorheader;
+  }
+
+  &__hero1 {
+    width: 192px;
+    height: 52px;
+
+    background-color: $mainTextNavCl;
+    color: $mainBackColorheader;
+  }
+}
+
+.btn2 {
+  margin-left: 12px;
+}
+
+.hero3__btn {
+  background-color: #18a0fb;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 20.72px;
+  letter-spacing: -1.5px;
+  &_wh {
+    width: 192px;
+    height: 52px;
+  }
+  &_margin {
+    margin-top: 40px;
+  }
+}
+
+.hero3__box-b-link {
+  background-image: url("../../img/hero/2.jpg");
+
+  display: block;
+}
+
+.hero4__btn {
+  width: 192px;
+  height: 52px;
+
+  &_margin {
+    margin-top: 40px;
+    margin-left: 1px;
+  }
+  &_s-b {
+    background-color: #18a0fb;
+    color: #fff;
+    border-radius: 6px;
+  }
+  &_f-s {
+    font-size: 17px;
+    line-height: 20.72px;
+    letter-spacing: -1.5px;
+  }
+}

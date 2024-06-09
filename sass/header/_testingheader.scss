@@ -1,0 +1,88 @@
+.wrapper {
+  width: 1840px;
+
+  font-family: "Montserrat";
+
+  &--bgColor {
+    background-color: $mainBackColor;
+  }
+  &--padding {
+    padding: 80px;
+  }
+
+}
+
+.nav {
+  display: flex;
+
+  justify-content: space-between;
+
+  &--padding-top {
+    padding-top: 10px;
+  }
+}
+
+.nav1 {
+  display: flex;
+}
+
+.nav2 {
+  display: flex;
+}
+
+.cover {
+  background-color: $mainBackColorheader;
+
+  height: 60px;
+
+  &--padding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  &--margin:not(:first-child) {
+    margin-top: 40px;
+  }
+}
+
+.nav-list {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-list1 {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+
+  &--margin {
+    margin-left: auto;
+  }
+}
+
+.nav-list2 {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+
+  &--margin {
+    margin-left: 71px;
+  }
+}
+
+.nav-list-item:not(:last-child) {
+  padding-right: 40px;
+}
+
+.nav-list-item1 {
+  padding-right: 40px;
+}
+
+.log-in {
+  &--margin {
+    margin-left: auto;
+  }
+}
